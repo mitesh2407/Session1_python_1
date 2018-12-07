@@ -13,11 +13,10 @@ Created on Fri Dec  7 11:55:08 2018
 #   but are not a multiple of 5, between 2000 and 3200 (both included). The 
 #   numbers obtained should be printed in a comma-separated sequence on a 
 #   single line.
-l=[]
-for i in range(2000, 3201):
-    if (i%7==0) and (i%5!=0):
-        l.append(str(i))
-        print ','join(l)
+list =[x for x in range (2000,3201) if x % 7 == 0 and x % 5 != 0];
+print (list)
+
+
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  
 # 3. Write a Python program to accept the user's first and last name and then 
@@ -27,7 +26,6 @@ for i in range(2000, 3201):
 fname = input("Input your First Name : ");
 lname = input("Input your Last Name : ");
 print ("Hello  " + lname + " " + fname)
-
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
@@ -40,3 +38,9 @@ pi = math.pi;
 r = float(12/2);
 V = (float(4/3)*(pi)*(r)**3);
 print(V)
+
+
+
+
+
+##############################    END   ######################################
